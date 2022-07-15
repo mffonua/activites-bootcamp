@@ -1,0 +1,34 @@
+/*  "*" is the base of what every thing is set too or UNIVERSAL SELECTOR*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* Background color for the body is a lemon-like color */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+/*overrides and styles everything for the footer */
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+/*changes the width and background for the figure section */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* Makes the font text bolder  */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Changes background color */
+#contact-section {
+  background-color: #f0ead6;
+}

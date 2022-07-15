@@ -1,0 +1,29 @@
+.box {
+  /*Sets the height and width of the section */
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  /* border-width: 5px;
+  border-style: solid;
+  border-color:black; !/
+}
+
+.box-blue {
+  /* Sets font color */
+  color: white;
+  /* Sets background color */
+  background-color: #0000ff;
+}
+
+.box-orange {
+  /* Uses hex codes to define color */
+  color: #0000ff;
+  background-color: #ffa500;
+}
+
+#box-yellow {
+  /* Uses predefined colors to define color */
+  color: purple;
+  background-color: yellow;
+}
