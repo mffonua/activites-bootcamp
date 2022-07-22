@@ -1,0 +1,101 @@
+:root {
+    --background: #000000;
+    --accent: #ff99cc;
+    --base-font: 'Calibri', sans-serif;
+    --heading-font: 'Cambria', serif;
+}
+
+/* Default styles for page */
+body {
+    background-color: var(--background);
+    font-family: var(--base-font);
+    font-size: 110%;
+}
+
+/* Header styles */
+header {
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Top-level heading styles */
+header h1 {
+    color: var(--accent);
+    font-size: 200%;
+    margin: 30px 0 15px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+/* Header paragraph styles */
+header p {
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+Flex container declaration
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* Code card styles */
+/* Card flex properties, spacing and border */
+.card {
+    flex: 1 1 300px;
+    border: 2px dashed #fff;
+    color: var(--accent);
+    padding: 0 15px 15px;
+    margin: 0 20px 40px;
+}
+
+/* Card header styles, including position relative deflection */
+.card h2 {
+    font-size: 150%;
+    width: 90%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+    background-color: var(--background);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-family: var(--heading-font);
+}
+
+/* Card paragraph styles */
+.card p {
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+/* Card pre code sections, including white-space style to allow text to wrap */
+.card pre {
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    background: linear-gradient(180deg, #ed59a3, #d23282);
+    font-size: 100%;
+    white-space: pre-wrap;
+    user-select: all;
+}
+/* END code card styles */
+
+/* Setting transition timing and effect */
+.card,.card h2 {
+    transition: all 0.5s ease-in-out;
+}
+
+/* Setting mouse hover shadow animation */
+.card:hover,.card:hover h2 {
+    box-shadow: inset 0px 0px 8px var(--accent), 0 0 15px var(--accent);
+}
