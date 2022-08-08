@@ -14,7 +14,9 @@ console.log(studentName);
 
 //To combine the message with a variable value use the concatenation operator(+)
 //Logs "My name is "
-console.log("My name is ");
+// console.log("My name is ");
+studentAge = 52 + 38;
 
-// Logs "My name is Tonya"
+// Logs "My name is Tonya" " + is called concatenation"
 console.log("My name is " + studentName);
+console.log("My age is " + studentAge);

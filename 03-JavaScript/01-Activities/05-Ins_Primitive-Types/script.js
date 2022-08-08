@@ -11,8 +11,8 @@ var myNumberInt = 100;
 var myNumberDecimal = 100.100;
 
 // Booleans have two values: true or false
-var isMyBooleanTrue = true;
-var isMyBooleanFalse = false;
+var isMyBooleanTrue = true; // is different than "true"
+var isMyBooleanFalse = false; // is different than "false"
 
 // To check the type of data, use typeof followed by the name of the variable
 // Logs undefined

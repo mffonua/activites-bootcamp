@@ -26,7 +26,7 @@ declareHello();
 function declareHelloAgain(x,y,z) { 
   console.log("Hello, my parameter's values are " + x + ", " + y + ", and " + z);
   console.log("-----------------------------------");
-  return;
+  var isEqualTakeTwo = funtion 
 }
 
 // Function arguments give parameters their values

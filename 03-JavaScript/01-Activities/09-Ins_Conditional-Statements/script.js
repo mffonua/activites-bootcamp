@@ -29,7 +29,7 @@ if (isLunchTime) {
   console.log("Not Lunchtime!!");
 }
 
-// Evaluates to false so "It's Lunchtime Already" is logged
+// Evaluates to false so "It's Lunchtime Already  " is logged
 if (!isLunchTime) {
   console.log("Not Lunchtime Already!!");
 } else {

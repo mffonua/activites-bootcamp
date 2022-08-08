@@ -1,7 +1,7 @@
 // Change the values and operators below to test your algorithm meets all conditions
 var x = 50;
-var expression1 = (x < 150);
-var expression2 = (x > 5);
+var expression1 = (x < 150); //true
+var expression2 = (x > 5); //true
 
 // Write Your JavaScript Code Here
 
